@@ -47,6 +47,7 @@ public class Utils {
 			}
 		}
 	}
+
 	public List<String> listAllFile(File dir,long size) {
 		List<String> list = new ArrayList<String>();
 		listDirFiles(dir, list,size);
@@ -64,6 +65,7 @@ public class Utils {
 		}
 	}
 	
+
 	/**
 	 * 读取config下键值对,放入map
 	 * 
